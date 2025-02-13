@@ -214,15 +214,7 @@ html {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-65%, -52%);
-  -ms-transform: translate(-65%, -52%);
-  transform: translate(-65%, -52%);
-  font-size: 25rem;
-  text-align: center;
-  color: #59391d;
-  opacity: .1;
-  pointer-events: none;
-  line-height: 1;
+transform: translate(-50%,-50%);
 }
 
 
@@ -1594,12 +1586,6 @@ html {
     font-size: 3.25rem;
   }
 
-  .hero__label {
-    font-size: 15rem;
-    -webkit-transform: translate(-45%, -60%);
-    -ms-transform: translate(-45%, -60%);
-    transform: translate(-45%, -60%);
-  }
 
 
   .hero__date {
