@@ -105,7 +105,7 @@ html {
 
 .hero__container {
   position: relative;
-  /* min-height: 100vh; */
+  min-height: 100vh;
   padding-top: 5rem;
   padding-bottom: 5rem;
   display: -ms-grid;
@@ -221,8 +221,6 @@ html {
   color: #59391d;
   opacity: .1;
   pointer-events: none;
-  display: block;
-  line-height: 0.5;
 }
 
 .hero__date {
@@ -1590,14 +1588,14 @@ html {
 
   .hero__title {
     font-size: 3.25rem;
+    position: relative;
   }
 
   .hero__title span {
     font-size: 15rem;
-
-    -webkit-transform: translate(-45%, 0%);
-    -ms-transform: translate(-45%, 0%);
-    transform: translate(-45%, 0%);
+    -webkit-transform: translate(-45%, -60%);
+    -ms-transform: translate(-45%, -60%);
+    transform: translate(-45%, -60%);
   }
 
   .hero__date {
