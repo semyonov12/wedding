@@ -210,13 +210,9 @@ html {
 }
 
 .hero__title span {
-  font-family: "CormorantInfant", sans-serif;
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-65%, -52%);
-  -ms-transform: translate(-65%, -52%);
-  transform: translate(-65%, -52%);
   font-size: 25rem;
   text-align: center;
   color: #59391d;
@@ -1593,9 +1589,8 @@ html {
 
   .hero__title span {
     font-size: 15rem;
-    -webkit-transform: translate(-45%, -60%);
-    -ms-transform: translate(-45%, -60%);
-    transform: translate(-45%, -60%);
+    top: 0;
+    left: 0;
   }
 
   .hero__date {
