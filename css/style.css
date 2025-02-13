@@ -213,6 +213,9 @@ html {
   position: absolute;
   top: 50%;
   left: 50%;
+  -webkit-transform: translate(-65%, -52%);
+  -ms-transform: translate(-65%, -52%);
+  transform: translate(-65%, -52%);
   font-size: 25rem;
   text-align: center;
   color: #59391d;
@@ -1589,8 +1592,9 @@ html {
 
   .hero__title span {
     font-size: 15rem;
-    top: 0;
-    left: 0;
+    -webkit-transform: translate(-45%, -40%);
+    -ms-transform: translate(-45%, -40%);
+    transform: translate(-45%, -40%);
   }
 
   .hero__date {
