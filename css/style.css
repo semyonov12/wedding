@@ -209,13 +209,20 @@ html {
   margin-bottom: 1.25rem;
 }
 
-.hero__label {
+.hero__title span {
+  font-family: "CormorantInfant", sans-serif;
   position: absolute;
   top: 50%;
   left: 50%;
-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-65%, -52%);
+  -ms-transform: translate(-65%, -52%);
+  transform: translate(-65%, -52%);
+  font-size: 25rem;
+  text-align: center;
+  color: #59391d;
+  opacity: .1;
+  pointer-events: none;
 }
-
 
 .hero__date {
   font-size: 2.5rem;
@@ -1240,10 +1247,9 @@ transform: translate(-50%,-50%);
     font-size: 4.0625rem;
   }
 
-  .hero__label {
+  .hero__title span {
     font-size: 18.75rem;
   }
-
 
   .hero__date {
     font-size: 1.875rem;
@@ -1585,7 +1591,12 @@ transform: translate(-50%,-50%);
     font-size: 3.25rem;
   }
 
-
+  .hero__title span {
+    font-size: 15rem;
+    -webkit-transform: translate(-45%, -60%);
+    -ms-transform: translate(-45%, -60%);
+    transform: translate(-45%, -60%);
+  }
 
   .hero__date {
     font-size: 1.5rem;
