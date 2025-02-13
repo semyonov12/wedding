@@ -1594,9 +1594,10 @@ html {
 
   .hero__title span {
     font-size: 15rem;
-    -webkit-transform: translate(-45%, -60%);
-    -ms-transform: translate(-45%, -60%);
-    transform: translate(-45%, -60%);
+
+    -webkit-transform: translate(-45%, 0%);
+    -ms-transform: translate(-45%, 0%);
+    transform: translate(-45%, 0%);
   }
 
   .hero__date {
