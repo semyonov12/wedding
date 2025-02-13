@@ -1594,9 +1594,9 @@ html {
 
   .hero__title span {
     font-size: 15rem;
-    -webkit-transform: translate(-45%, -60%);
-    -ms-transform: translate(-45%, -60%);
-    transform: translate(-45%, -60%);
+    -webkit-transform: translate(-45%, -35%);
+    -ms-transform: translate(-45%, -35%);
+    transform: translate(-45%, -35%);
   }
 
   .hero__date {
@@ -1887,9 +1887,9 @@ html {
 
   .footer__title span {
     font-size: 15rem;
-    -webkit-transform: translate(-45%, -60%);
-    -ms-transform: translate(-45%, -60%);
-    transform: translate(-45%, -60%);
+    -webkit-transform: translate(-45%, -35%);
+    -ms-transform: translate(-45%, -35%);
+    transform: translate(-45%, -35%);
   }
 
   .footer__date {
